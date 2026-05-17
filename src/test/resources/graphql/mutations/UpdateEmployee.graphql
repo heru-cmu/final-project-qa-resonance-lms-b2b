@@ -1,0 +1,6 @@
+mutation updateEmployee($id: String!, $input: EmployeeInput!) {
+    updateEmployee(id: $id, input: $input) {
+        id
+        __typename
+    }
+}

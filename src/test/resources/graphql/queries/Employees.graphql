@@ -1,0 +1,9 @@
+query employees($search: String, $angkatanIds:[Float!], $orderBy:String, $orderColumn:String, $page:Float, $limit:Float) {
+  employees(search:$search, angkatanIds:$angkatanIds, orderBy:$orderBy, orderColumn:$orderColumn, page:$page, limit:$limit) {
+    id
+    name
+    email
+    angkatanId
+    __typename
+  }
+}

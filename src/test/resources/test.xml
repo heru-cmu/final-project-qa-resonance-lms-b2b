@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QA Suite" verbose="1">
+
+    <listeners>
+        <listener class-name="com.dibimbingqa.listeners.AllureListener"/>
+        <listener class-name="com.dibimbingqa.listeners.ScreenshotListener"/>
+    </listeners>
+
+<!--     UI Tests-->
+    <test name="UI Tests">
+        <classes>
+            <class name="com.dibimbingqa.tests.LoginTest"/>
+            <class name="com.dibimbingqa.tests.ProgramStudiTest"/>
+            <class name="com.dibimbingqa.tests.EmployeeTest"/>
+        </classes>
+    </test>
+
+    <!-- API Tests -->
+    <test name="API Tests">
+        <classes>
+            <class name="com.dibimbingqa.api.LoginApiTest"/>
+            <class name="com.dibimbingqa.api.DivisionApiTest"/>
+            <class name="com.dibimbingqa.api.DivisionExportApiTest"/>
+            <class name="com.dibimbingqa.api.EmployeeMutationApiTest"/>
+            <class name="com.dibimbingqa.api.EmployeeQueryApiTest"/>
+        </classes>
+    </test>
+
+    <!-- API Tests (Framework Mentor) -->
+<!--    <test name="API Tests">-->
+<!--        <classes>-->
+<!--            <class name="com.dibimbingqa.tests.api.BaseAuthenticatedTest"/>-->
+<!--            <class name="com.dibimbingqa.tests.api.CreateEmployeeTest"/>-->
+<!--            <class name="com.dibimbingqa.tests.api.DeleteEmployeeTest"/>-->
+<!--            <class name="com.dibimbingqa.tests.api.EmployeeQueryTest"/>-->
+<!--            <class name="com.dibimbingqa.tests.api.ExportDataEmployeesTest"/>-->
+<!--            <class name="com.dibimbingqa.tests.api.ImportDataEmployeeTest"/>-->
+<!--            <class name="com.dibimbingqa.tests.api.InactivateEmployeeTest"/>-->
+<!--            <class name="com.dibimbingqa.tests.api.ResendEmployeePasswordEmailTest"/>-->
+<!--            <class name="com.dibimbingqa.tests.api.UpdateEmployeesDivisionTest"/>-->
+<!--            <class name="com.dibimbingqa.tests.api.UpdateEmployeeTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>

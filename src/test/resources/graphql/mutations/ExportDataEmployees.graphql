@@ -1,0 +1,3 @@
+mutation exportDataEmployees($status:[String!], $divisionIds:[String!], $search:String) {
+    exportDataEmployees(status:$status, divisionIds:$divisionIds, search:$search)
+}

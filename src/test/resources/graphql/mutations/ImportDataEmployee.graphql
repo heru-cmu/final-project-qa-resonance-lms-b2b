@@ -1,0 +1,8 @@
+mutation importDataEmployee($file: Upload!) {
+    importDataEmployee(file: $file) {
+        id
+        name
+        email
+        __typename
+    }
+}
