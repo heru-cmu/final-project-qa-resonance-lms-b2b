@@ -81,5 +81,4 @@ Tujuan utama adalah memastikan kualitas aplikasi melalui kombinasi **manual test
 ---
 
 ## 👤 Author
-**Heru Chairuddin Mukti Utama**  
-QA Bootcamp Dibimbing, Batch 3  
+**Heru Chairuddin Mukti Utama**
